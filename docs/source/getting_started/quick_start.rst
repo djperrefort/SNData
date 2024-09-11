@@ -30,7 +30,7 @@ For a more in depth overview, see the :ref:`SlowStart`.
 
    # Check what objects are included in the data release
    object_ids = dr3.get_available_ids()
-   print(obj_ids)
+   print(object_ids)
 
    # Read in the data for an object using it's Id
    demo_id = object_ids[0]
